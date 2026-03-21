@@ -6,7 +6,7 @@ import streamlit as st
 import chromadb
 import os
 import time
-import tempfile
+import tempfile 
 
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
